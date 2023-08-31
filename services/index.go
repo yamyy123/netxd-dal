@@ -1,12 +1,11 @@
-package service
+package services
 
 import (
 	"context"
 
-	"go.mongodb.org/mongo-driver/mongo"
-	"github.com/yamyy123/netxd-dal/models"
 	"github.com/yamyy123/netxd-dal/interfaces"
-
+	"github.com/yamyy123/netxd-dal/models"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 type CustomerService struct {
